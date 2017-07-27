@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Codystar';
+    src: url('Codystar-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Geostar';
+    src: url('GeostarFill-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Press';
+    src: url('PressStart2P-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Digital';
+    src: url('digital-display-tfb.ttf');
+}
+
+html {
+  background: #000; /*#3CC6C4*/
+  color: #FFF;
+  overflow: hidden;
+}
+
+#counter {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  font-size: 1.5em;
+  font-family: fantasy;
+  width: 90%;
+  margin: 100px;
+}
+
+#counter .name {
+  margin-left: 3px;
+  font-size: 1em;
+  font-family: 'Codystar';
+  position: relative;
+  top: 13px;
+}
+
+#counter .number {
+  color: red;
+  font-size: 9em;
+  font-weight: bolder;
+  font-family: 'Digital';
+  position: relative;
+  top: -30px;
+}
